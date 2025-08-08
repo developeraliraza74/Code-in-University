@@ -12,7 +12,7 @@ int main(){
 	cin >> choice;
 	switch(choice){
 		case 1:
-			cout << "Percentage is " << (obtained / 100.0) * total;
+			cout << "Percentage is " << (obtained / 100.00) * total;
 			break;
 		case 2:
 			{
@@ -20,7 +20,7 @@ int main(){
 					grade = 'A';
 				}
 				else if(obtained >= 80){
-					grade = 'B';
+					grade = 'B' ;
 				}
 				else if(obtained >= 70){
 					grade = 'C';
